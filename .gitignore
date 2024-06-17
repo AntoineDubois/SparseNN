@@ -1,0 +1,6 @@
+.venv/
+.vscode/
+__pycache__/
+sparse_nn/pybind11/
+sparse_nn/build/
+

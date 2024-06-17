@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Xclang -fopenmp -march=native -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_max_2d_pooling.dir/test_max_2d_pooling.cxx.o -o test_max_2d_pooling   -L/opt/homebrew/opt/libomp/lib  -Wl,-rpath,/opt/homebrew/opt/libomp/lib -lomp 

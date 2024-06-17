@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Xclang -fopenmp -march=native -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_sparse_array.dir/test_sparse_array.cxx.o -o test_sparse_array   -L/opt/homebrew/opt/libomp/lib  -Wl,-rpath,/opt/homebrew/opt/libomp/lib -lomp 

@@ -3,4 +3,5 @@
 __pycache__/
 sparse_nn/pybind11/
 sparse_nn/build/
+sparse_nn/python_build/
 

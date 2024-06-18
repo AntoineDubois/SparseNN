@@ -1,1 +1,0 @@
-/usr/bin/clang++  -Xclang -fopenmp -march=native -arch arm64 -bundle -Wl,-headerpad_max_install_names -Xlinker -undefined -Xlinker dynamic_lookup -flto -o SparseNN.cpython-311-darwin.so CMakeFiles/SparseNN.dir/main_pybind.cxx.o   -L/opt/homebrew/opt/libomp/lib  -Wl,-rpath,/opt/homebrew/opt/libomp/lib -lomp 

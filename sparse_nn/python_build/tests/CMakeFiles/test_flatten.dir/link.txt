@@ -1,1 +1,0 @@
-/usr/bin/clang++  -Xclang -fopenmp -march=native -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_flatten.dir/test_flatten.cxx.o -o test_flatten   -L/opt/homebrew/opt/libomp/lib 
